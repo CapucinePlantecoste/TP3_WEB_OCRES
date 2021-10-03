@@ -6,6 +6,7 @@ const API_KEY = "4081444b7b90198136fefe6ed4ccf35b";
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 // Base source icon
 const API_URL_ICON = "http://openweathermap.org/img/wn/";
+const city = document.getElementById("city-input").value;
 
 class API_WEATHER {
   constructor(city) {
